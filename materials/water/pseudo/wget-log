@@ -1,0 +1,26 @@
+Retrying.
+
+--2025-06-12 11:59:01--  (try:15)  https://www.quantum-simulation.org/potentials/sg15_oncv/upf/H.upf.gz
+Connecting to www.quantum-simulation.org (www.quantum-simulation.org)|128.120.80.58|:443... failed: Connection timed out.
+Retrying.
+
+--2025-06-12 12:01:24--  (try:16)  https://www.quantum-simulation.org/potentials/sg15_oncv/upf/H.upf.gz
+Connecting to www.quantum-simulation.org (www.quantum-simulation.org)|128.120.80.58|:443... failed: Connection timed out.
+Retrying.
+
+--2025-06-12 12:03:48--  (try:17)  https://www.quantum-simulation.org/potentials/sg15_oncv/upf/H.upf.gz
+Connecting to www.quantum-simulation.org (www.quantum-simulation.org)|128.120.80.58|:443... failed: Connection timed out.
+Retrying.
+
+--2025-06-12 12:06:11--  (try:18)  https://www.quantum-simulation.org/potentials/sg15_oncv/upf/H.upf.gz
+Connecting to www.quantum-simulation.org (www.quantum-simulation.org)|128.120.80.58|:443... failed: Connection timed out.
+Retrying.
+
+--2025-06-12 12:08:35--  (try:19)  https://www.quantum-simulation.org/potentials/sg15_oncv/upf/H.upf.gz
+Connecting to www.quantum-simulation.org (www.quantum-simulation.org)|128.120.80.58|:443... failed: Connection timed out.
+Retrying.
+
+--2025-06-12 12:10:58--  (try:20)  https://www.quantum-simulation.org/potentials/sg15_oncv/upf/H.upf.gz
+Connecting to www.quantum-simulation.org (www.quantum-simulation.org)|128.120.80.58|:443... failed: Connection timed out.
+Giving up.
+

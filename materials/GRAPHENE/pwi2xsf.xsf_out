@@ -1,0 +1,9 @@
+
+Usage: pwi2xsf.sh [-r] pw-input
+
+Option for PWscf version < 1.2:
+
+-r ... for pw.x < 1.2 one must spefify the ityp->nat conversion, and
+       the corresponding data are writen to file nuclei.charges. The
+       -r flag deletes this file as to force new ityp->nat specification.
+
