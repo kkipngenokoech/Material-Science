@@ -1,0 +1,29 @@
+units           metal
+
+dimension       3
+boundary        p p p
+atom_style      atomic
+neighbor        2.5 bin
+neigh_modify    every 1
+
+read_data       limn2o4.data
+pair_style      lj/cut 16.5
+pair_coeff      1 1 0.249 3.57 16.5
+pair_coeff      1 2 0.292 3.25 16.5
+pair_coeff      1 3 0.195 1.77 16.5
+pair_coeff      2 2 0.204 2.91 16.5
+pair_coeff      2 3 0.226 2.06 12.0
+pair_coeff      3 3 0.204 2.91 12.0
+
+run_style       verlet
+timestep        0.0005
+fix             1 all nve
+velocity        all create 5000 9865758 dist uniform
+
+dump            1 all xyz 1 limn2o4.xyz
+dump_modify     1 element Li Mn O
+
+thermo          1
+thermo_style    custom step time ke pe etotal
+
+run             10000
